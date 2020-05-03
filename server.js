@@ -8,9 +8,9 @@ var Review = require('./review');
 var jwt = require('jsonwebtoken');
 
 // Reset database data
-User.deleteMany(function(err){if (err) throw err;});
-Movie.deleteMany(function(err){if (err) throw err;});
-Review.deleteMany(function(err){if (err) throw err;});
+//User.deleteMany(function(err){if (err) throw err;});
+//Movie.deleteMany(function(err){if (err) throw err;});
+//Review.deleteMany(function(err){if (err) throw err;});
 
 var app = express();
 module.exports = app; // for testing
